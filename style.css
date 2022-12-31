@@ -78,3 +78,18 @@
     margin-left: 5px;
     margin-top: 10px;
 }
+
+/************** Button ************/
+
+button {
+    padding: 18px 50px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: silver;
+}

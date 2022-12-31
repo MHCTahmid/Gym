@@ -190,13 +190,14 @@ button:hover {
 .text p {
     text-align: left;
     margin-left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
+    color: rgb(199, 199, 199);
 }
 
 .text li {
     margin-left: 10px;
     line-height: .5em;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .about_buttton {
@@ -205,4 +206,47 @@ button:hover {
 
 .about_buttton:hover {
     background-color: blue;
+}
+
+/******************** Workout Inquiry ****************/
+
+
+
+.inquiry {
+    height: 200px;
+    width: 700px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.inq_title h1 {
+    margin-top: 80px;
+    color: white;
+    font-size: 32px;
+}
+
+.inq_button button {
+    margin-top: 75px;
+    padding: 15px 30px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border: none;
+}
+
+.inq_button button:hover {
+    color: white;
+    background-color: blue;
+}
+
+.inquiry {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 }

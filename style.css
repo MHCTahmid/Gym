@@ -250,3 +250,110 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
 }
+
+/********************* Our Services *********************/
+
+.service h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.services_fee {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card p {
+    color: red;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.card h5 {
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.services_fee p {
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.services_fee h1 {
+    margin-top: 15px;
+
+}
+
+.card img {
+    width: 320px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.card {
+    margin-left: 45px;
+    width: 320px;
+    height: 480px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px black;
+    margin-bottom: 200px;
+}
+
+.services_fee {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.badge {
+    position: relative;
+}
+
+.badge img {
+    width: 70px;
+    height: 90px;
+    top: -20px;
+    right: -15px;
+    position: absolute;
+}
+
+/*************** Footer *************/
+
+hr {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+footer h1 {
+    font-size: 17px;
+    margin: 10px;
+}
+
+footer p {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 100px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+}
+
+.author {
+    color: red;
+}

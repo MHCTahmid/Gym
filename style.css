@@ -24,6 +24,7 @@ body {
 }
 
 .company h1 {
+    margin-top: 0px;
     font-size: 48px;
     letter-spacing: .2em;
 

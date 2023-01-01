@@ -1,4 +1,4 @@
-* {
+body {
     margin: 0px;
     padding: 0px;
 }
@@ -56,18 +56,18 @@
     color: rgb(255, 65, 65);
 }
 
-.text p {
+.texts p {
     font-size: 23px;
     font-weight: 700;
     color: rgb(209, 208, 208)
 }
 
-.text h1 {
+.texts h1 {
     font-size: 70px;
 }
 
 
-.text {
+.texts {
     margin-left: 50px;
     width: 70%;
     color: white;
@@ -87,6 +87,7 @@ button {
     font-size: 16px;
     background-color: red;
     color: white;
+    margin-left: 20px;
     border-radius: 8px;
 }
 
@@ -156,7 +157,6 @@ button:hover {
 }
 
 .pics {
-    margin-top: 40px;
     margin-left: 150px;
     width: 50%;
     border-top: 1px solid red;
@@ -177,20 +177,20 @@ button:hover {
     display: block;
     width: 60%;
     border-top: .1px solid white;
-    margin-top: 40px;
+    margin-left: 40px;
     margin-right: 120px;
 }
 
 .text h1 {
     margin-left: 10px;
     text-align: left;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
 }
 
 .text p {
     text-align: left;
     margin-left: 20px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     color: rgb(199, 199, 199);
 }
 
@@ -201,12 +201,13 @@ button:hover {
 }
 
 .about_buttton {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .about_buttton:hover {
     background-color: blue;
 }
+
 
 /******************** Workout Inquiry ****************/
 
